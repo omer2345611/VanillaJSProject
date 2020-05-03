@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page">
+
+        <header>
+            <h1>Notes app</h1>
+        </header>
+
+        <main>
+            <form>
+                <br>
+                <input type="text" name="title" id="titleInput" placeholder="Type note title..." />
+                <br><br>
+                <textarea name="message" id="messageInput" placeholder="Type note message..."></textarea>
+                <br><br>
+                <button type="button" onclick="createNote()" id="createBtn">Add note</button>
+            </form>
+
+            <div id="container"></div>
+        </main>
+        <footer>
+            <p>© 2011 Omer Shaharabani All Rights Reserved</p>
+        </footer>
+
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
